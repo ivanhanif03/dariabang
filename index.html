@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="1.gif">
+    <title>Dari abang</title>
+    <!-- BOOTSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    
+    <!-- FONT -->
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <style>
+        body {
+            font-family: 'Poppins';
+        }
+    </style>
+
+</head>
+<body>
+    <div id="cardOne" style="display: block;" class="container mt-lg-5">
+        <div class="d-flex align-items-center justify-content-center" style="height: 600px"">
+            <div class="card border-0 text-center" style="width: 10rem;">
+                <img src="1.gif" class="card-img-top" alt="sayang">
+                <div class="card-body">
+                    <h5 class="card-title fw-bold">Hallo</h5>
+                    <p class="card-text">Neng cantik</p>
+                    <button onclick="showHide()" class="btn btn-primary rounded-pill">Pencet</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="cardTwo" style="display: none;" class="container mt-lg-5">
+        <div class="d-flex align-items-center justify-content-center" style="height: 600px"">
+            <div class="card border-0 text-center" style="width: 10rem;">
+                <img src="2.gif" class="card-img-top" alt="neng">
+                <div class="card-body">
+                    <h5 class="card-title fw-bold">Cie yang lagi kerja</h5>
+                    <p class="card-text">Semangat ya!</p>
+                    <button onclick="showHide()" class="btn btn-primary rounded-pill">Pencet</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="cardThree" style="display: none;" class="container mt-lg-5">
+        <div class="d-flex align-items-center justify-content-center" style="height: 600px"">
+            <div class="card border-0 text-center" style="width: 10rem;">
+                <img src="3.gif" class="card-img-top" alt="banget">
+                <div class="card-body">
+                    <h5 class="card-title fw-bold">Tapi</h5>
+                    <p class="card-text">Neng lagi sakit kasian :(</p>
+                    <button onclick="showHide()" class="btn btn-primary rounded-pill">Pencet</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="cardFour" style="display: none;" class="container mt-lg-5">
+        <div class="d-flex align-items-center justify-content-center" style="height: 600px"">
+            <div class="card border-0 text-center" style="width: 10rem;">
+                <img src="4.gif" class="card-img-top" alt="banget">
+                <div class="card-body">
+                    <h5 class="card-title fw-bold">Tapi tenang aja</h5>
+                    <p class="card-text">Nanti aku bawa mangga manis buat neng</p>
+                    <button onclick="showHide()" class="btn btn-primary rounded-pill">Pencet</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="cardFive" style="display: none;" class="container mt-lg-5">
+        <div class="d-flex align-items-center justify-content-center" style="height: 600px"">
+            <div class="card border-0 text-center" style="width: 10rem;">
+                <img src="5.gif" class="card-img-top" alt="banget">
+                <div class="card-body">
+                    <h5 class="card-title fw-bold">Biar neng</h5>
+                    <p class="card-text">Sehat lagi dan ceria teruss</p>
+                    <button onclick="showHide()" class="btn btn-primary rounded-pill">Pencet</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="cardSix" style="display: none;" class="container mt-lg-5">
+        <div class="d-flex align-items-center justify-content-center" style="height: 600px"">
+            <div class="card border-0 text-center" style="width: 10rem;">
+                <img src="6.gif" class="card-img-top" alt="banget">
+                <div class="card-body">
+                    <h5 class="card-title fw-bold">Yuhuu</h5>
+                    <p class="card-text">Get well soon ya neng cantikkuu</p>
+                    <button onclick="showHide()" class="btn btn-primary rounded-pill">Pencet</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="cardSeven" style="display: none;" class="container mt-lg-5">
+        <div class="d-flex align-items-center justify-content-center" style="height: 600px"">
+            <div class="card border-0 text-center" style="width: 10rem;">
+                <img src="7.gif" class="card-img-top" alt="banget">
+                <div class="card-body">
+                    <h5 class="card-title fw-bold">Tapi inget!</h5>
+                    <p class="card-text">Makan jangan telat, minum obat sama vitaminnya, pake jaket yang tebel dan jangan minum esss</p>
+                    <button onclick="showHide()" class="btn btn-primary rounded-pill">Pencet</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="cardEight" style="display: none;" class="container mt-lg-5">
+        <div class="d-flex align-items-center justify-content-center" style="height: 600px"">
+            <div class="card border-0 text-center" style="width: 10rem;">
+                <img src="8.gif" class="card-img-top" alt="banget">
+                <div class="card-body">
+                    <h5 class="card-title fw-bold">See u soon neng</h5>
+                    <p class="card-text">Semoga kamu seneng, senyum2 dikit dan ngilangin sedikit sakit kamu ya!</p>
+                    <button onclick="showHide()" class="btn btn-primary rounded-pill">Dah abis</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+<!-- BOOTSTRAP -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+<!-- HIDE SHOW -->
+
+<script>
+    function showHide() {
+      var one = document.getElementById("cardOne");
+      var two = document.getElementById("cardTwo");
+      var three = document.getElementById("cardThree");
+      var four = document.getElementById("cardFour");
+      var five = document.getElementById("cardFive");
+      var six = document.getElementById("cardSix");
+      var seven = document.getElementById("cardSeven");
+      var eight = document.getElementById("cardEight");
+      if (one.style.display === "block") {
+        one.style.display = "none";
+        two.style.display = "block";
+        three.style.display = "none";
+        four.style.display = "none";
+        five.style.display = "none";
+        six.style.display = "none";
+        seven.style.display = "none";
+        eight.style.display = "none";
+      } 
+      else if (two.style.display === "block") {
+        one.style.display = "none";
+        two.style.display = "none";
+        three.style.display = "block";
+        four.style.display = "none";
+        five.style.display = "none";
+        six.style.display = "none";
+        seven.style.display = "none";
+        eight.style.display = "none";
+      }
+      else if (three.style.display === "block") {
+        one.style.display = "none";
+        two.style.display = "none";
+        three.style.display = "none";
+        four.style.display = "block";
+        five.style.display = "none";
+        six.style.display = "none";
+        seven.style.display = "none";
+        eight.style.display = "none";
+      }
+      else if (four.style.display === "block") {
+        one.style.display = "none";
+        two.style.display = "none";
+        three.style.display = "none";
+        four.style.display = "none";
+        five.style.display = "block";
+        six.style.display = "none";
+        seven.style.display = "none";
+        eight.style.display = "none";
+      }
+      else if (five.style.display === "block") {
+        one.style.display = "none";
+        two.style.display = "none";
+        three.style.display = "none";
+        four.style.display = "none";
+        five.style.display = "none";
+        six.style.display = "block";
+        seven.style.display = "none";
+        eight.style.display = "none";
+      }
+      else if (six.style.display === "block") {
+        one.style.display = "none";
+        two.style.display = "none";
+        three.style.display = "none";
+        four.style.display = "none";
+        five.style.display = "none";
+        six.style.display = "none";
+        seven.style.display = "block";
+        eight.style.display = "none";
+      }
+      else if (seven.style.display === "block") {
+        one.style.display = "none";
+        two.style.display = "none";
+        three.style.display = "none";
+        four.style.display = "none";
+        five.style.display = "none";
+        six.style.display = "none";
+        seven.style.display = "none";
+        eight.style.display = "block";
+      } else {
+        one.style.display = "block";
+        two.style.display = "none";
+        three.style.display = "none";
+        four.style.display = "none";
+        five.style.display = "none";
+        six.style.display = "none";
+        seven.style.display = "none";
+        eight.style.display = "none";
+      }
+    }
+</script>
+</html>
